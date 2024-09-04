@@ -2,14 +2,15 @@
 var cashInHand = 1000;
 
 // purchase items
-var orangePerKg = 300;
-var applePerKg = 200;
+var orangePerKg = 200;
+var applePerKg = 150;
 
 // buy quantity
-var orangeQuantity = 1;
-var appleQuantity = 1;
+// var orangeQuantity = 2;
+// var appleQuantity = 1;
 
 // total cost
- cashInHand = cashInHand - (orangePerKg * orangeQuantity + applePerKg * appleQuantity)
+
+ cashInHand = cashInHand - (orangePerKg+ applePerKg )
  
 console.log(cashInHand)
